@@ -6,7 +6,12 @@ namespace Proj3
     {
         static void Main(string[] args)
         {
-            int x1 = 3; int y1 = 1; char sym1 = '*';
+            Point p1 = new Point();
+            p1.x = 3;
+            p1.y = 1;
+            p1.sym = '*' ;
+            Draw(p1.x, p1.y, p1.sym);
+                       
             int x2 = 2; int y2 = 2; char sym2 = '*';
             int x3 = 4; int y3 = 2; char sym3 = '*';
             int x4 = 1; int y4 = 3; char sym4 = '*';
@@ -70,7 +75,7 @@ namespace Proj3
             int x63 = 17; int y63 = 5; char sym63 = '*';
             int x64 = 18; int y64 = 4; char sym64 = '*';
 
-            Draw(x1, y1, sym1); Draw(x2, y2, sym2); Draw(x3, y3, sym3);
+            Draw(x2, y2, sym2); Draw(x3, y3, sym3);
             Draw(x4, y4, sym4); Draw(x5, y5, sym5); Draw(x6, y6, sym6);
             Draw(x7, y7, sym7); Draw(x8, y8, sym8); Draw(x9, y9, sym9);
             Draw(x10, y10, sym10); Draw(x11, y11, sym11); Draw(x12, y12, sym12);
