@@ -109,6 +109,3 @@ namespace Proj3
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
         }
-
-    }
-}
