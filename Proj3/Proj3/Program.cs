@@ -16,7 +16,7 @@ namespace Proj3
             p1.sym = '*';
             p1.Draw(p1.x, p1.y, p1.sym);
 
-          
+
             int x2 = 2; int y2 = 2; char sym2 = '*';
             int x3 = 4; int y3 = 2; char sym3 = '*';
             int x4 = 1; int y4 = 3; char sym4 = '*';
@@ -109,3 +109,5 @@ namespace Proj3
             Console.SetCursorPosition(x, y);
             Console.Write(sym);
         }
+    }
+}
