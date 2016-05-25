@@ -11,21 +11,36 @@ namespace Proj3
         static void Main(string[] args)
         {
             Point p1 = new Point();
-            p1.x = 3;
-            p1.y = 1;
-            p1.sym = '*';
-            p1.Draw(p1.x, p1.y, p1.sym);
+            p1.x = 3; p1.y = 1;  p1.sym = '*';   p1.Draw(p1.x, p1.y, p1.sym);
+
+            Point p2 = new Point();
+            p2.x = 2; p2.y = 2;  p2.sym = '*';   p2.Draw(p2.x, p2.y, p2.sym);
+
+            Point p3 = new Point();
+            p3.x = 4; p3.y = 2;  p3.sym = '*';   p3.Draw(p3.x, p3.y, p3.sym);
+
+            Point p4 = new Point();
+            p4.x = 1; p4.y = 3;  p4.sym = '*';   p4.Draw(p4.x, p4.y, p4.sym);
+
+            Point p5 = new Point();
+            p5.x = 5; p5.y = 3;  p5.sym = '*';   p5.Draw(p5.x, p5.y, p5.sym);
+
+            Point p6 = new Point();
+            p6.x = 1; p6.y = 4; p6.sym = '*'; p6.Draw(p6.x, p6.y, p6.sym);
+
+            Point p7 = new Point();
+            p7.x = 1; p7.y = 5; p7.sym = '*'; p7.Draw(p7.x, p7.y, p7.sym);
+
+            Point p8 = new Point();
+            p8.x = 1; p8.y = 6; p8.sym = '*'; p8.Draw(p8.x, p8.y, p8.sym);
+
+            Point p9 = new Point();
+            p9.x = 1; p9.y = 7; p9.sym = '*'; p9.Draw(p9.x, p9.y, p9.sym);
+
+            Point p10 = new Point();
+            p10.x = 1; p10.y = 8; p10.sym = '*'; p10.Draw(p10.x, p10.y, p10.sym);
 
 
-            int x2 = 2; int y2 = 2; char sym2 = '*';
-            int x3 = 4; int y3 = 2; char sym3 = '*';
-            int x4 = 1; int y4 = 3; char sym4 = '*';
-            int x5 = 5; int y5 = 3; char sym5 = '*';
-            int x6 = 1; int y6 = 4; char sym6 = '*';
-            int x7 = 1; int y7 = 5; char sym7 = '*';
-            int x8 = 1; int y8 = 6; char sym8 = '*';
-            int x9 = 1; int y9 = 7; char sym9 = '*';
-            int x10 = 1; int y10 = 8; char sym10 = '*';
             int x11 = 2; int y11 = 9; char sym11 = '*';
             int x12 = 3; int y12 = 10; char sym12 = '*';
             int x13 = 5; int y13 = 4; char sym13 = '*';
@@ -80,10 +95,7 @@ namespace Proj3
             int x63 = 17; int y63 = 5; char sym63 = '*';
             int x64 = 18; int y64 = 4; char sym64 = '*';
 
-            Draw(x2, y2, sym2); Draw(x3, y3, sym3);
-            Draw(x4, y4, sym4); Draw(x5, y5, sym5); Draw(x6, y6, sym6);
-            Draw(x7, y7, sym7); Draw(x8, y8, sym8); Draw(x9, y9, sym9);
-            Draw(x10, y10, sym10); Draw(x11, y11, sym11); Draw(x12, y12, sym12);
+            Draw(x11, y11, sym11); Draw(x12, y12, sym12);
             Draw(x13, y13, sym13); Draw(x14, y14, sym14); Draw(x15, y15, sym15);
             Draw(x16, y16, sym16); Draw(x17, y17, sym17); Draw(x18, y18, sym18);
             Draw(x19, y19, sym19); Draw(x20, y20, sym20); Draw(x21, y21, sym21);
