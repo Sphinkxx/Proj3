@@ -10,20 +10,20 @@ namespace Proj3
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-            p1.x = 3; p1.y = 1;  p1.sym = '*';   p1.Draw();
+            Point p1 = new Point(3, 1, '*');
+            p1.Draw();
 
-            Point p2 = new Point();
-            p2.x = 2; p2.y = 2;  p2.sym = '*';   p2.Draw();
+            Point p2 = new Point(2, 2, '*');
+            p2.Draw();
 
-            Point p3 = new Point();
-            p3.x = 4; p3.y = 2;  p3.sym = '*';   p3.Draw();
+            Point p3 = new Point(4, 2, '*');
+           p3.Draw();
 
-            Point p4 = new Point();
-            p4.x = 1; p4.y = 3;  p4.sym = '*';   p4.Draw();
+            Point p4 = new Point(1, 3, '*');
+            p4.Draw();
 
-            Point p5 = new Point();
-            p5.x = 5; p5.y = 3;  p5.sym = '*';   p5.Draw();
+            Point p5 = new Point(5, 3, '*');
+            p5.Draw();
 
             Point p6 = new Point();
             p6.x = 1; p6.y = 4; p6.sym = '*'; p6.Draw();
